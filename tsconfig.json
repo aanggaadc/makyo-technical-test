@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "jsx": "react-jsx",
+    "module": "nodenext",
+    "target": "es2015",
+    "moduleResolution": "nodenext",
+    "strict": true
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "makyo-technical-test",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^17 || ^18",
+    "react-dom": "^17 || ^18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^5.0.0",
+    "@storybook/addon-a11y": "^10.2.6",
+    "@storybook/addon-docs": "^10.2.6",
+    "@storybook/addon-vitest": "^10.2.6",
+    "@storybook/react": "^10.2.6",
+    "@storybook/react-vite": "^10.2.6",
+    "@tailwindcss/vite": "^4.1.18",
+    "@vitest/browser-playwright": "^4.0.18",
+    "@vitest/coverage-v8": "^4.0.18",
+    "playwright": "^1.58.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "storybook": "^10.2.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
