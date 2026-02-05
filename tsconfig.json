@@ -6,9 +6,13 @@
     "emitDeclarationOnly": false,
     "jsx": "react-jsx",
     "module": "nodenext",
-    "target": "es2015",
+    "target": "es2016",
     "moduleResolution": "nodenext",
-    "strict": true
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": ["src"]
 }
