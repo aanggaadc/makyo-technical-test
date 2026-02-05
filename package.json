@@ -24,6 +24,7 @@
     "@storybook/react": "^10.2.6",
     "@storybook/react-vite": "^10.2.6",
     "@tailwindcss/vite": "^4.1.18",
+    "@types/react-dom": "^19.2.3",
     "@vitest/browser-playwright": "^4.0.18",
     "@vitest/coverage-v8": "^4.0.18",
     "playwright": "^1.58.1",
